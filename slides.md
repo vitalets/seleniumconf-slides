@@ -46,14 +46,6 @@ src: ./pages/case-1-no-mocking.md
 ---
 
 ---
-src: ./pages/no-mocking-test.md
----
-
----
-src: ./pages/no-mocking-challenges.md
----
-
----
 src: ./pages/client-side-mocking.md
 ---
 

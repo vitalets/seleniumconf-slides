@@ -2,9 +2,15 @@
 
 # First attempt: no mocking
 
+<style scoped>
+h3 + ul {
+  margin-top: 0.9rem;
+}
+</style>
+
 <div v-click>
 
-```js {all|2|4|6-7}{at:2}
+```js {all|2|4|6-7|all}{at:2}
 it('non-empty list (no mocks)', async () => {
   await driver.get('http://localhost:3000');
 
@@ -16,6 +22,16 @@ it('non-empty list (no mocks)', async () => {
 ```
 
 </div>
+
+<div v-click="5">
+
+<br>
+
+- **Unreliable**: API can reorder, rename, or fail while the app still works
+- **Limited scenarios**: empty lists and error flows need response control
+
+</div>
+
 
 <!--
 Cue: Introduce the straightforward approach. Then switch to VS Code and open the no-mocks test.
