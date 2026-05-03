@@ -1,8 +1,4 @@
----
-layout: center
----
-
-**ALTERNATIVE**
+###### ALTERNATIVE
 
 # Request Mocking Protocol
 

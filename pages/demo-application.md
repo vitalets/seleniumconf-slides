@@ -3,7 +3,7 @@ layout: two-cols
 layoutClass: gap-10
 ---
 
-**DEMO APPLICATION**
+###### DEMO APPLICATION
 
 # Meet the app
 

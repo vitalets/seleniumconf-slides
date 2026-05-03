@@ -1,8 +1,4 @@
----
-layout: center
----
-
-**CASE 2**
+###### CASE 2
 
 # Client-side mocking with Selenium BiDi
 

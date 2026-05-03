@@ -1,8 +1,4 @@
----
-layout: center
----
-
-**CASE 1**
+###### CASE 1
 
 # First attempt: no mocking
 

@@ -4,7 +4,8 @@ title: Mocking client-side and server-side API calls with Selenium BiDi
 info: |
   Technical talk about deterministic request mocking for browser-side and server-side API calls using Selenium BiDi and Request Mocking Protocol.
 author: Vitalets
-class: deck-root
+layout: cover
+class: text-left cover-slide
 transition: slide-left
 drawings:
   persist: false
@@ -20,9 +21,7 @@ fonts:
 seoMeta:
   ogTitle: Mocking client-side and server-side API calls with Selenium BiDi
   ogDescription: Deterministic request mocking for client-side and server-side API calls.
----
-
----
+contextMenu: false
 src: ./pages/cover.md
 ---
 

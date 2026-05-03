@@ -1,4 +1,4 @@
-**RECAP**
+###### RECAP
 
 # What we learned
 

@@ -3,7 +3,7 @@ layout: two-cols
 layoutClass: gap-10
 ---
 
-**CASE 3**
+###### CASE 3
 
 # What changes with server-side rendering?
 

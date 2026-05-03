@@ -1,8 +1,4 @@
----
-layout: center
----
-
-**SAMPLES AND Q&A**
+###### SAMPLES AND Q&A
 
 # Repository with code samples
 

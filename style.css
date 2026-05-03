@@ -10,6 +10,7 @@
 }
 
 .slidev-layout {
+  position: relative;
   background:
     linear-gradient(180deg, rgba(8, 127, 115, 0.08), rgba(8, 127, 115, 0) 34%),
     var(--deck-bg);
@@ -17,9 +18,18 @@
   font-size: 1.3rem;
 }
 
+.slidev-layout:not(.cover-slide) {
+  padding-top: 3.4rem;
+}
+
+.slidev-layout.center:not(.cover-slide) {
+  display: block;
+}
+
 .slidev-layout h1,
 .slidev-layout h2,
-.slidev-layout h3 {
+.slidev-layout h3,
+.slidev-layout h6 {
   letter-spacing: 0;
 }
 
@@ -46,11 +56,20 @@
   color: var(--deck-text);
 }
 
-.slidev-layout > p:first-child strong {
+.slidev-layout h6 {
+  margin: 0 0 0.9rem;
   color: var(--deck-cyan);
+  opacity: 1;
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.12em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.slidev-layout h6:not(.opacity-100) {
+  color: var(--deck-cyan);
+  opacity: 1;
 }
 
 .slidev-layout code {
@@ -114,9 +133,63 @@
   max-width: 100%;
 }
 
-.cover-slide img[alt="SeleniumConf penguin"] {
-  width: min(34rem, 72%);
-  margin: 1.4rem 0 1.8rem;
+.cover-slide {
+  position: relative;
+  padding-bottom: 7.5rem;
+}
+
+.cover-slide h1 {
+  max-width: 38ch;
+  font-size: 2.08rem;
+  line-height: 0.78;
+}
+
+.cover-slide p {
+  max-width: 44rem;
+}
+
+.cover-slide p:nth-of-type(2) {
+  position: absolute;
+  right: 3.6rem;
+  bottom: 2.18rem;
+  margin: 0;
+  color: var(--deck-text);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.cover-slide code {
+  display: inline-block;
+  margin: 0.18rem 0.18rem 0 0;
+  padding: 0.22rem 0.55rem;
+  border: 1px solid var(--deck-line);
+  border-radius: 999px;
+  background: var(--deck-surface);
+  color: var(--deck-blue);
+  font-size: 0.72rem;
+}
+
+.cover-slide img[alt="SeleniumConf"] {
+  position: absolute;
+  bottom: 2.1rem;
+  left: 3.6rem;
+  width: min(21rem, 42%);
+  margin: 0;
+}
+
+.slide-counter {
+  position: absolute;
+  right: 1.35rem;
+  bottom: 1rem;
+  z-index: 20;
+  border: 1px solid var(--deck-line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.78);
+  padding: 0.28rem 0.72rem;
+  color: var(--deck-muted);
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.82rem;
+  line-height: 1;
 }
 
 .slidev-code {
