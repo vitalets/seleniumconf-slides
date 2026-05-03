@@ -1,4 +1,4 @@
-###### ALTERNATIVE
+###### Alternative
 
 # Request Mocking Protocol
 
@@ -9,8 +9,4 @@ flowchart LR
 ```
 
 No external mock server. Each test carries its own mock data.
-No external mock server. Each test carries its own mock data.
 
-<!--
-Cue: Explain that the mock configuration travels with the navigation request.
--->

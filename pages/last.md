@@ -1,4 +1,4 @@
-###### SAMPLES AND Q&A
+###### Thank you
 
 # Repository with code samples
 

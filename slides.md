@@ -34,7 +34,7 @@ src: ./pages/agenda.md
 ---
 
 ---
-src: ./pages/demo-application.md
+src: ./pages/demo-app.md
 ---
 
 ---
@@ -66,15 +66,19 @@ src: ./pages/server-side-rendering.md
 ---
 
 ---
-src: ./pages/traditional-mock-server.md
+src: ./pages/server-side-traditional.md
 ---
 
 ---
-src: ./pages/request-mocking-protocol.md
+src: ./pages/server-side-rmp.md
 ---
 
 ---
 src: ./pages/rmp-flow.md
+---
+
+---
+src: ./pages/server-side-code.md
 ---
 
 ---
@@ -94,5 +98,5 @@ src: ./pages/recap.md
 ---
 
 ---
-src: ./pages/repo-qa.md
+src: ./pages/last.md
 ---

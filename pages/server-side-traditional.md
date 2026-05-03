@@ -1,6 +1,8 @@
-###### TRADITIONAL APPROACH
+###### Traditional approach
 
 # Use a mock server
+
+WireMock, MockServer, Mockoon, JSON server...
 
 ```mermaid
 flowchart LR
