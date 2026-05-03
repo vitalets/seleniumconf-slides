@@ -121,6 +121,20 @@
   margin: 0.25rem 0;
 }
 
+.about-me-slide img[alt="Vitalii Potapov"] {
+  width: 15rem;
+  margin: 0 0 1.2rem;
+  border-radius: 8px;
+}
+
+.about-me-slide img[alt="My first test"] {
+  width: min(100%, 24rem);
+  margin: 0;
+  border: 1px solid var(--deck-line);
+  border-radius: 8px;
+  box-shadow: 0 12px 32px rgba(23, 33, 43, 0.08);
+}
+
 .slidev-layout pre {
   margin-top: 1.5rem;
 }

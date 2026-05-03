@@ -1,28 +1,23 @@
 ---
 layout: two-cols
-layoutClass: gap-10
+layoutClass: gap-10 about-me-slide
 ---
 
 ###### ABOUT ME
 
 # Full-stack developer, test automation maintainer
 
-- Full-stack developer in a pharma company
-- Daily stack: JavaScript, TypeScript, Next.js
-- Open-source maintainer in the test automation space
-- Maintainer of `playwright-bdd`
-
-`JavaScript` · `TypeScript` · `Next.js` · `Pharma` · `Playwright BDD`
+- 🇪🇸 Spain
+- 💊 Pharma
+- 👨‍💻 Full-stack, TypeScript, Next.js
+- 🚀 Open source, `playwright-bdd`
+- 😱 Testing since 2012
 
 ::right::
 
-> **Profile photo**
->
-> Drop in `/assets/profile.jpg` later.
+![Vitalii Potapov](/vitalii.png)
 
-> **GitHub / OSS screenshot**
->
-> Drop in `/assets/github.png` later.
+![My first test](/first-test.png)
 
 <!--
 Cue: Mention pharma work, JS/Next.js stack, open-source maintenance, and playwright-bdd.
