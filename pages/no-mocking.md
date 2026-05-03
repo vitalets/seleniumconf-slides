@@ -27,8 +27,8 @@ it('non-empty list (no mocks)', async () => {
 
 <br>
 
-- **Unreliable**: API can reorder, rename, or fail while the app still works
-- **Limited scenarios**: empty lists and error flows need response control
+- ❌ **Unreliable**: minor API changes cause test failures
+- ❌ **Limited scenarios**: empty list and error flows are not possible
 
 </div>
 

@@ -1,4 +1,4 @@
-###### CASE 2
+###### Client side mocks
 
 # Client-side mocking with Selenium BiDi
 

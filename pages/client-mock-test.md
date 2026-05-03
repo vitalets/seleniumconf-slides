@@ -1,4 +1,4 @@
-###### CLIENT-SIDE MOCK
+###### Client side mock
 
 # Assert against known state
 
