@@ -139,6 +139,30 @@
   box-shadow: 0 12px 32px rgba(23, 33, 43, 0.08);
 }
 
+
+
+.client-side-mocking-slide {
+  display: flex;
+  flex-direction: column;
+}
+
+.client-side-mocking-slide p:has(img) {
+  opacity: 1;
+  flex: 1;
+  display: flex;
+  min-height: 0;
+}
+
+.client-side-mocking-slide img[alt="client-side-mocking"] {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.slidev-layout h1 + p:has(img) {
+  opacity: 1;
+}
+
 .demo-application-slide {
   display: flex;
   flex-direction: column;

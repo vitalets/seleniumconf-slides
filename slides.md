@@ -42,23 +42,23 @@ src: ./pages/test-cases.md
 ---
 
 ---
-src: ./pages/no-mocking.md
+src: ./pages/no-mocking-code.md
 ---
 
 ---
-src: ./pages/client-side-mocking.md
+src: ./pages/no-mocking-result.md
 ---
 
 ---
-src: ./pages/client-mock-test.md
+src: ./pages/client-side-mocking-schema.md
 ---
 
 ---
-src: ./pages/bidi-interception.md
+src: ./pages/client-side-mocking-code.md
 ---
 
 ---
-src: ./pages/client-scenarios.md
+src: ./pages/client-side-mocking-result.md
 ---
 
 ---

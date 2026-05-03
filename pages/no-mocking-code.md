@@ -2,12 +2,6 @@
 
 # First attempt: no mocking
 
-<style scoped>
-h3 + ul {
-  margin-top: 0.9rem;
-}
-</style>
-
 <div v-click>
 
 ```js {all|2|4|6-7|all}{at:2}
@@ -23,16 +17,8 @@ it('non-empty list (no mocks)', async () => {
 
 </div>
 
-<div v-click="5">
+<div v-click="5" style="margin-top: 20px">
 
-<br>
-
-- ❌ **Unreliable**: minor API changes cause test failures
-- ❌ **Limited scenarios**: empty list and error flows are not possible
+### ▶️ Run the test
 
 </div>
-
-
-<!--
-Cue: Introduce the straightforward approach. Then switch to VS Code and open the no-mocks test.
--->
