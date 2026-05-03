@@ -1,28 +1,46 @@
----
-layout: two-cols
-layoutClass: gap-10
----
 
-###### CASE 3
+###### Server-side rendering
 
 # What changes with server-side rendering?
 
-```mermaid
-flowchart LR
-  browser[Browser requests page] --> server[Server fetches users before HTML]
-```
+<div class="ssr-center">
+  <p>Check the app!</p>
+  <div class="demo-link-wrap">
+    <a href="http://localhost:3000/ssr" target="_blank" rel="noreferrer">http://localhost:3000/ssr</a>
+  </div>
+</div>
 
-The users are already rendered into the HTML. DevTools no longer shows a browser-side `/users` request.
-The users are already rendered into the HTML. DevTools no longer shows a browser-side `/users` request.
-
-::right::
-
-> **SSR screenshot**
->
-> Navigation request contains rendered users.
->
-> Drop in `/assets/ssr-app.png` later.
-
-<!--
-Cue: Switch to the browser, enable server-side fetch, and show that the API request is absent from DevTools.
--->
+<style>
+.ssr-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin-top: 2rem;
+}
+.ssr-center p {
+  margin-bottom: 1rem;
+}
+.demo-link-wrap {
+}
+a[href="http://localhost:3000/ssr"] {
+  display: inline-block;
+  border: 1px solid var(--deck-line);
+  border-radius: 8px;
+  background: var(--deck-surface);
+  background-image: none;
+  padding: 0.85rem 1.2rem;
+  color: var(--deck-blue);
+  opacity: 1;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+a[href="http://localhost:3000/ssr"]:hover,
+a[href="http://localhost:3000/ssr"]:focus {
+  color: var(--deck-blue);
+  background-image: none;
+  text-decoration: none;
+}
+</style>

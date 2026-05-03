@@ -2,7 +2,7 @@
 class: client-side-mocking-slide
 ---
 
-###### Client side mocks
+###### Client-side mocks
 
 # Intercept and mock requests in the browser
 
