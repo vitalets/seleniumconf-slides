@@ -1,0 +1,125 @@
+:root {
+  --deck-bg: #f7f4ee;
+  --deck-surface: #ffffff;
+  --deck-surface-soft: #edf7f5;
+  --deck-line: #d8dedb;
+  --deck-text: #17212b;
+  --deck-muted: #52606d;
+  --deck-cyan: #087f73;
+  --deck-blue: #2d5db3;
+}
+
+.slidev-layout {
+  background:
+    linear-gradient(180deg, rgba(8, 127, 115, 0.08), rgba(8, 127, 115, 0) 34%),
+    var(--deck-bg);
+  color: var(--deck-text);
+  font-size: 1.3rem;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  letter-spacing: 0;
+}
+
+.slidev-layout h1 {
+  color: var(--deck-text);
+  font-size: 2.6rem;
+  line-height: 1.05;
+}
+
+.slidev-layout h2 {
+  color: var(--deck-text);
+  font-size: 2rem;
+  line-height: 1.12;
+}
+
+.slidev-layout p,
+.slidev-layout li,
+.slidev-layout td,
+.slidev-layout blockquote {
+  color: var(--deck-muted);
+}
+
+.slidev-layout strong {
+  color: var(--deck-text);
+}
+
+.slidev-layout > p:first-child strong {
+  color: var(--deck-cyan);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.slidev-layout code {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  color: var(--deck-blue);
+}
+
+.slidev-layout table {
+  display: table;
+  width: 100%;
+  margin-top: 1.8rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border: 1px solid var(--deck-line);
+  border-radius: 8px;
+  background: var(--deck-surface);
+  box-shadow: 0 12px 32px rgba(23, 33, 43, 0.06);
+}
+
+.slidev-layout th,
+.slidev-layout td {
+  border-bottom: 1px solid var(--deck-line);
+  padding: 0.8rem 1rem;
+  text-align: left;
+}
+
+.slidev-layout th {
+  color: var(--deck-text);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.slidev-layout tr:last-child td {
+  border-bottom: 0;
+}
+
+.slidev-layout blockquote {
+  margin-top: 1.25rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--deck-line);
+  border-left: 4px solid var(--deck-cyan);
+  border-radius: 8px;
+  background: var(--deck-surface-soft);
+}
+
+.slidev-layout blockquote p {
+  margin: 0.25rem 0;
+}
+
+.slidev-layout pre {
+  margin-top: 1.5rem;
+}
+
+.slidev-layout .mermaid {
+  margin-top: 1.5rem;
+}
+
+.slidev-layout .mermaid svg {
+  max-width: 100%;
+}
+
+.cover-slide img[alt="SeleniumConf penguin"] {
+  width: min(34rem, 72%);
+  margin: 1.4rem 0 1.8rem;
+}
+
+.slidev-code {
+  font-size: 0.8rem !important;
+  line-height: 1.45 !important;
+}
