@@ -7,11 +7,11 @@ layoutClass: gap-10 about-me-slide
 
 # Full-stack developer, test automation maintainer
 
-- 🇪🇸 Spain
+- 📍 Spain
 - 💊 Pharma
 - 👨‍💻 Full-stack, TypeScript, Next.js
 - 🚀 Open source, `playwright-bdd`
-- 😱 Testing since 2012
+- 😱 Wrote first test 14 years ago
 
 ::right::
 

@@ -16,7 +16,7 @@ x-mock-request: {"url":"/users","status":200,"body":[...]}
 
 <div v-click>
 
-✅ No external mock server. Each test carries its own mock data.
+> ✅ No external mock server. Each test carries its own mock data. Highly scalable.
 
 </div>
 

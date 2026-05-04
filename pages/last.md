@@ -1,19 +1,23 @@
 ###### Thank you
 
-# Repository with code samples
+# Thank you for your attention!
 
-```txt
-https://github.com/your-org/selenium-bidi-request-mocking
-```
+<div class="grid grid-cols-2 gap-8 mt-6 items-center">
 
-> **QR code**
->
-> Drop in `/assets/repo-qr.png` later.
+<div>
 
-## Thank you
+Slides, code samples and all other links:
 
-Questions?
+<a class="demo-link mt-4" href="https://github.com/vitalets/selenium-nodejs-request-mocks" target="_blank" tabindex="-1" @mousedown.prevent><span>https://github.com/vitalets/selenium-nodejs-request-mocks</span></a>
 
-<!--
-Cue: Point to the repository with the app, tests, and links. Invite questions.
--->
+</div>
+
+<div class="flex justify-center">
+
+![QR](/qr.png)
+
+</div>
+
+</div>
+
+

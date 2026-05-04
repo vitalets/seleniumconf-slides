@@ -78,11 +78,11 @@ src: ./pages/server-side-code.md
 ---
 
 ---
-src: ./pages/server-mock-test.md
+src: ./pages/server-side-instrumentation.md
 ---
 
 ---
-src: ./pages/server-side-how-it-works.md
+src: ./pages/server-side-two-layers.md
 ---
 
 ---

@@ -12,7 +12,7 @@ WireMock, MockServer, Mockoon, json-server...
 
 <div v-click>
 
-**Challenges**: Parallel runs, remote deployments, per-test data isolation.
+> ❗️ **Challenges**: Parallel runs, remote deployments, per-test data isolation.
 
 </div>
 

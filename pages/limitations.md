@@ -1,14 +1,12 @@
 ###### LIMITS
 
-# Request mocking still needs rules
+# Header-based mocks limitations
 
 | Limitation | Meaning |
 | --- | --- |
 | **Declarative mocks** | Mock definitions must be serializable. Arbitrary functions do not travel in headers. |
 | **Header size** | Practical request header limits are often around 4-8 KB, depending on the environment. |
 
-In practice, this is usually acceptable when mocks are focused on the state the test actually needs.
+> 👉 In practice, this is usually acceptable. Mocks should focus on the small state the test actually needs.
 
-<!--
-Cue: Be clear about the tradeoffs. RMP is useful, but it is not an unlimited data transport.
--->
+

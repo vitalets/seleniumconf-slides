@@ -3,7 +3,7 @@
 # What we will cover
 
 1. **Demo app**
-2. **No mocks**  
+2. **Testing without mocks**  
 3. **Client-side mocking with BiDi**  
 4. **Server-side mocking**  
 5. **Limits and rules of mocking**  

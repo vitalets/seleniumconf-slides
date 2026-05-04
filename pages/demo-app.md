@@ -7,6 +7,6 @@ class: demo-application-slide
 # Meet the app
 
 <div class="demo-link-wrap">
-  <a class="demo-link" href="http://localhost:3000" target="_blank" rel="noreferrer">http://localhost:3000</a>
+  <a class="demo-link" href="http://localhost:3000" target="_blank" rel="noreferrer" tabindex="-1" @mousedown.prevent>http://localhost:3000</a>
 </div>
 
