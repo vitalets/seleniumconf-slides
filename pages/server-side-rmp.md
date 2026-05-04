@@ -1,12 +1,24 @@
 ###### Alternative
 
-# Request Mocking Protocol
+# Mock via HTTP Header
 
-```mermaid
-flowchart LR
-  data[Test data<br/>serialized mock schema] --> header[Navigation header<br/>attached by BiDi]
-  header --> server[Server<br/>applies mocks while rendering]
+Put the whole mock data into a custom HTTP header.
+
+<div v-click>
+
+![RMP](/rmp-schema.png)
+
+```http
+x-mock-request: {"url":"/users","status":200,"body":[...]}
 ```
 
-No external mock server. Each test carries its own mock data.
+</div>
+
+<div v-click>
+
+✅ No external mock server. Each test carries its own mock data.
+
+</div>
+
+
 

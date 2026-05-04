@@ -182,7 +182,7 @@
   margin-top: 1rem;
 }
 
-.demo-application-slide a[href="http://localhost:3000"] {
+.demo-link {
   display: inline-block;
   border: 1px solid var(--deck-line);
   border-radius: 8px;
@@ -196,8 +196,8 @@
   text-decoration: none;
 }
 
-.demo-application-slide a[href="http://localhost:3000"]:hover,
-.demo-application-slide a[href="http://localhost:3000"]:focus {
+.demo-link:hover,
+.demo-link:focus {
   color: var(--deck-blue);
   background-image: none;
   text-decoration: none;

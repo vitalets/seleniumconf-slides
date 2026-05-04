@@ -1,6 +1,6 @@
 ###### Test code
 
-# What changes in the test code?
+# Writing the Test
 
 <div v-click>
 
@@ -26,7 +26,7 @@ it('non-empty list (server mocks)', async () => {
 
 </div>
 
-<div v-click="5" style="margin-top: 20px">
+<div v-click="5" style="margin-top: 5px">
 
 ### ▶️ Run the test
 

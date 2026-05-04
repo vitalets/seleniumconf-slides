@@ -2,18 +2,17 @@
 
 # Use a mock server
 
-WireMock, MockServer, Mockoon, JSON server...
+WireMock, MockServer, Mockoon, json-server...
 
-```mermaid
-flowchart LR
-  test[Test configures environment] --> app[Application calls mock base URL]
-  app --> mock[Mock server returns static responses]
-```
+<div v-click>
 
-| Advantage | Drawback |
-| --- | --- |
-| Works well locally with WireMock, MockServer, Mockoon, or JSON server. | Parallel runs, remote deployments, and per-test data isolation add complexity. |
+![Mock Server](/mock-server-schema.png)
 
-<!--
-Cue: This is a valid approach, but it becomes heavier as deployment and parallelization get more realistic.
--->
+</div>
+
+<div v-click>
+
+**Challenges**: Parallel runs, remote deployments, per-test data isolation.
+
+</div>
+
