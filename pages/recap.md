@@ -2,6 +2,12 @@
 
 # What we learned
 
+<style>
+li {
+  font-size: 1.2rem;
+}
+</style>
+
 <v-clicks>
 
 - **Request mocking improves testing experience**  
@@ -9,7 +15,7 @@
 - **Selenium BiDi controls browser requests**  
   The test can intercept, continue, fail, or fulfill client-side requests.
 - **Server-side mocking needs browser + server cooperation**  
-  Use BiDi interception, custom header and app instrumentation to mock requests on server.
+  Use a custom header, BiDi interception, and app instrumentation to mock requests on server.
 
 </v-clicks>
 
@@ -19,8 +25,4 @@
 
 </div>
 
-<style>
-li {
-  font-size: 1.2rem;
-}
-</style>
+

@@ -11,6 +11,6 @@
 
 <div v-click>
 
-<a class="demo-link" href="vscode://file/Users/vitalets/projects/selenium-nodejs-request-mocks/test/no-mocks.test.js:8" @mousedown.prevent>▶️ Check the test</a>
+<a class="demo-link" href="vscode://file/Users/vitalets/projects/selenium-nodejs-request-mocks/test/no-mocks.test.js:8" @mousedown.prevent>▶️ View Test Code</a>
 
 </div>

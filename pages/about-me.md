@@ -7,6 +7,12 @@ layoutClass: gap-10 about-me-slide
 
 # Full-stack developer, test automation maintainer
 
+<style>
+li {
+  font-size: 1.4rem;
+}
+</style>
+
 - 📍 Spain
 - 💊 Pharma
 - 👨‍💻 Full-stack, TypeScript, Next.js
