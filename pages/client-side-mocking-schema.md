@@ -8,10 +8,7 @@ class: client-side-mocking-slide
 
 <div v-click>
 
-![client-side-mocking](/client-side-mocks.png)
+![client-side-schema](/client-side-schema.png)
 
 </div>
 
-<!--
-Cue: Introduce the core idea: intercept the request and return known data before the real API is touched.
--->

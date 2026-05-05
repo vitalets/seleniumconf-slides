@@ -11,7 +11,7 @@ layoutClass: gap-10 about-me-slide
 - 💊 Pharma
 - 👨‍💻 Full-stack, TypeScript, Next.js
 - 🚀 Open source, `playwright-bdd`
-- 😱 Wrote first test 14 years ago
+- 😱 Wrote my first test 14 years ago
 
 ::right::
 
@@ -19,6 +19,3 @@ layoutClass: gap-10 about-me-slide
 
 ![My first test](/first-test.png)
 
-<!--
-Cue: Mention pharma work, JS/Next.js stack, open-source maintenance, and playwright-bdd.
--->

@@ -1,15 +1,13 @@
 ###### Alternative
 
-# Mock via HTTP Header
-
-Put the whole mock data into a custom HTTP header.
+# Mock data in HTTP Header
 
 <div v-click>
 
 ![RMP](/rmp-schema.png)
 
 ```http
-x-mock-request: {"url":"/users","status":200,"body":[...]}
+x-mock-request: [{"url":"/users","status":200,"body":[{"id":1,"name":"User 1"},...
 ```
 
 </div>
