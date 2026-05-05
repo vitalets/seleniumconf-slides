@@ -1,8 +1,8 @@
-###### Server-side mocks
+###### Header-based mocks
 
 # App Instrumentation
 
-Intercept all outgoing `fetch()` requests on server and apply mocks from headers.
+Intercept `fetch()` requests on server and apply mocks from headers.
 
 ```js
 // instrumentation.js

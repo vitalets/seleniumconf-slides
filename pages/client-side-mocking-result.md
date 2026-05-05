@@ -1,6 +1,6 @@
-###### RESULT
+###### Client-side mocks
 
-# All client-side scenarios are now testable
+# All scenarios are covered
 
 | Scenario | Mock |
 | --- | --- |
@@ -8,5 +8,5 @@
 | **Empty list** | ✅ Return `[]` and assert the empty state message |
 | **API error** | ✅ Return status `500` and assert error details |
 
-> For client-side fetches, BiDi gives the test direct control over browser network requests.
+> 👍 For client-side fetches, BiDi gives the test direct control over browser network requests.
 

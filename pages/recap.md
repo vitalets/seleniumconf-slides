@@ -4,17 +4,23 @@
 
 <v-clicks>
 
-- **Request mocking unlocks better testing**  
-  Make tests deterministic and cover all scenarios.
+- **Request mocking improves testing experience**  
+  Make your tests deterministic and cover all scenarios.
 - **Selenium BiDi controls browser requests**  
-  The test can intercept, continue, fail, or fulfill requests.
-- **Server-side mocks need browser + server cooperation**  
+  The test can intercept, continue, fail, or fulfill client-side requests.
+- **Server-side mocking needs browser + server cooperation**  
   Use BiDi interception, custom header and app instrumentation to mock requests on server.
 
 </v-clicks>
 
 <div v-click>
 
-> ❗️ **Don't forget to sync your mocks with real API responses.**
+> ❗️ **Keep your mocks in sync with real API responses.**
 
 </div>
+
+<style>
+li {
+  font-size: 1.2rem;
+}
+</style>

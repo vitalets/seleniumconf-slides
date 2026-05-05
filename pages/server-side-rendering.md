@@ -14,8 +14,7 @@
 
 > 🤔 **How to mock?**
 
+  <a class="demo-link" href="http://localhost:3000/ssr" target="_blank" rel="noreferrer" tabindex="-1" @mousedown.prevent>http://localhost:3000/ssr</a>
+
 </v-click>
 
-<!-- <div v-click class="demo-link-wrap" style="margin-top: 2rem;">
-  <a class="demo-link" href="http://localhost:3000/ssr" target="_blank" rel="noreferrer" tabindex="-1" @mousedown.prevent>http://localhost:3000/ssr</a>
-</div> -->

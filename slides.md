@@ -42,7 +42,7 @@ src: ./pages/test-cases.md
 ---
 
 ---
-src: ./pages/no-mocking-1.md
+src: ./pages/no-mocking-start.md
 ---
 
 ---
@@ -51,10 +51,6 @@ src: ./pages/no-mocking-result.md
 
 ---
 src: ./pages/client-side-mocking-schema.md
----
-
----
-src: ./pages/client-side-mocking-code.md
 ---
 
 ---
@@ -74,19 +70,15 @@ src: ./pages/server-side-rmp.md
 ---
 
 ---
-src: ./pages/server-side-code.md
----
-
----
 src: ./pages/server-side-instrumentation.md
 ---
 
 ---
-src: ./pages/server-side-two-layers.md
+src: ./pages/server-side-limitations.md
 ---
 
 ---
-src: ./pages/limitations.md
+src: ./pages/server-side-result.md
 ---
 
 ---
