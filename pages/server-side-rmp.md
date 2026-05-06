@@ -7,7 +7,7 @@
 ![RMP](/rmp-schema.png)
 
 ```http
-x-mock-request: [{"url":"/users","status":200,"body":[{"id":1,"name":"User 1"},...
+x-mock-request: [{"url":"/users","status":200,"body":[{"id":1,"name":"User 1"},...]
 ```
 
 </div>

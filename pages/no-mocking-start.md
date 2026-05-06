@@ -2,12 +2,12 @@
 
 # First attempt: no mocking
 
-<v-clicks>
+<v-click>
 
 - Load the app.
 - Assert there are users in the list.
 
-</v-clicks>
+</v-click>
 
 <div v-click>
 
