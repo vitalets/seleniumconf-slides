@@ -8,5 +8,9 @@
 | **Empty list** | ✅ Return `[]` and assert the empty state message |
 | **API error** | ✅ Return status `500` and assert error details |
 
-> 👍 Selenium BiDi gives the test direct control over browser network requests.
+<SpeechBubble v-click>
+
+👍 Selenium BiDi gives the test direct control over **browser network requests**.
+
+</SpeechBubble>
 

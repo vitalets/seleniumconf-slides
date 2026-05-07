@@ -15,5 +15,9 @@ if (process.env.NODE_ENV !== 'production') {
 }
 ```
 
-> 👉 Depends on your framework and programming language.
+<SpeechBubble v-click>
+
+👉 Depends on your **framework** and **programming language**.
+
+</SpeechBubble>
 

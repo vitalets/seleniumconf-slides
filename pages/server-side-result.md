@@ -13,7 +13,11 @@
 
 <div v-click>
 
-> Implementation in JavaScript: <img src="/github.svg" style="display:inline;width:1em;height:1em;vertical-align:middle;margin-left:0.2em;margin-right:0.2em">[vitalets/request-mocking-protocol](https://github.com/vitalets/request-mocking-protocol)
+<SpeechBubble>
+
+Implementation in JavaScript: <img src="/github.svg" style="display:inline;width:1em;height:1em;vertical-align:middle;margin-left:0.2em;margin-right:0.2em">[vitalets/request-mocking-protocol](https://github.com/vitalets/request-mocking-protocol)
+
+</SpeechBubble>
 
 </div>
 

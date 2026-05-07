@@ -19,10 +19,11 @@ li {
 
 </v-clicks>
 
-<div v-click>
+<SpeechBubble v-click>
 
-> ❗️ **Keep your mocks in sync with real API responses.**
+❗️ **Keep your mocks in sync with real API responses.**
 
-</div>
+</SpeechBubble>
+
 
 

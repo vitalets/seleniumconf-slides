@@ -13,6 +13,10 @@
 
 <v-click>
 
-> 👉 In practice, this is usually acceptable. Mocks should focus on the **minimal state** the test actually needs.
+<SpeechBubble>
+
+👉 In practice, this is usually acceptable. Mocks should focus on the **minimal state** the test actually needs.
+
+</SpeechBubble>
 
 </v-click>

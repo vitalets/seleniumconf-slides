@@ -6,13 +6,19 @@ WireMock, MockServer, Mockoon, json-server...
 
 <div v-click>
 
-![Mock Server](/mock-server-schema.png)
+<div>
+<img src="/mock-server-schema.png" alt="Mock Server Schema">
+</div>
 
 </div>
 
 <div v-click>
 
-> ❗️ **Challenges**: Parallel runs, remote deployments, per-test data isolation.
+<SpeechBubble style="margin-top:0.7em">
+
+❗️ **Challenges**: Parallel runs, remote deployments, per-test data isolation.
+
+</SpeechBubble>
 
 </div>
 
