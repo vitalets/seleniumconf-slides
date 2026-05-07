@@ -6,7 +6,7 @@
 
 <div>
 
-Master link to slides, demo app, and other resources:
+Master link to the demo app, slides, and my LinkedIn:
 
 <a class="demo-link mt-4" href="https://github.com/vitalets/selenium-nodejs-request-mocks" target="_blank" tabindex="-1" @mousedown.prevent><span>https://github.com/vitalets/selenium-nodejs-request-mocks</span></a>
 
