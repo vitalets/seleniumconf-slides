@@ -14,6 +14,6 @@ class: client-side-mocking-slide
 
 <div v-click>
 
-<a class="demo-link" href="vscode://file/Users/vitalets/projects/selenium-nodejs-request-mocks/test/client-mocks.test.js:25" @mousedown.prevent>▶️ View Test Code</a>
+<a class="demo-link" href="https://github.com/vitalets/selenium-nodejs-request-mocks/blob/main/test/client-mocks.test.js#L25" @mousedown.prevent>▶️ View Test Code</a>
 
 </div>

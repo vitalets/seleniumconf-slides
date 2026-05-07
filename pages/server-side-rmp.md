@@ -14,7 +14,7 @@ x-mock-request: [{"url":"/users","status":200,"body":[{"id":1,"name":"User 1"},.
 
 <div v-click>
 
-<a class="demo-link" href="vscode://file/Users/vitalets/projects/selenium-nodejs-request-mocks/test/server-mocks.test.js:25" @mousedown.prevent>▶️ View Test Code</a>
+<a class="demo-link" href="https://github.com/vitalets/selenium-nodejs-request-mocks/blob/main/test/server-mocks.test.js#L25" @mousedown.prevent>▶️ View Test Code</a>
 
 </div>
 
